@@ -1,8 +1,7 @@
 <template>
   <div class="nav-content">
      <div class="title">
-       <!-- <img src="https://i.pinimg.com/originals/2c/fa/6b/2cfa6bc988e66e056b0c9d368bb5cb05.jpg" width="80px" height="50px" alt=""> -->
-       <img src="images/logo.png" width="100px" height="100px" alt="">
+       <img src="images/logo.png" width="100px" height="100px" alt="logo">
        </div>
      <div class="menu">
        <ul>
@@ -16,7 +15,6 @@
            <a href="#"><li>Cadastrar-se <i class="fa-solid fa-circle-user" style="color: #38A868;"></i></li></a>
        </ul>
       </div>
-     <!-- <a href="#" @click.prevent="logout" class="logout"><i class="fa fa-sign-out-alt"></i>logout</a> -->
   </div>
   
 </template>

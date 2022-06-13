@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Mandali&display=swap"); //font-family: 'Mandali', sans-serif;
+
+.home-content {
+  .container {
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 100px;
+
+    height: 100vh;
+    .content-title {
+      top: -300px;
+    }
+    .content-img {
+      padding-top: 100px;
+    }
+    .row .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+
+      .n-alert {
+        background-color: #ffffff;
+        color: #1abf60;
+        align-self: flex-start;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        z-index: 1;
+      }
+
+      .title {
+        width: 100%;
+        // font-family: 'Mandali', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 85px;
+        line-height: 95px;
+        color: rgb(0, 28, 84);
+        z-index: 1;
+      }
+      .simple-text{
+        padding-top: 40px;
+        color: gray;
+        z-index: 1;
+      }
+      .input-bg{
+        margin-top: 30px;
+        background-color: #fff;
+        border-radius: 10px !important;
+      }
+      .form-control{
+        height: 60px;
+        border: none;
+      }
+      .btn-uny{
+        background-color: #fff;
+        border: none;
+        border-radius: 10px !important;
+        i{
+          color: #1abf60;
+        }
+      }
+      .btn-uny:hover{
+        color: #8c8689;
+      }
+      .search-btn{
+        background-color: #1abf60;
+        border: none;
+        border-radius: 10px !important;
+        color: #fff;
+        margin: 5px;
+        padding: 5px;
+      }
+      .search-btn:hover{
+        border: none;
+      }
+    }
+    .elipse {
+      position: absolute;
+      width: 436px;
+      height: 436px;
+      left: 231px;
+      top: 397px;
+      border-radius: 50%;
+      background: rgba(28, 188, 97, 0.074);
+      filter: blur(190px);
+    }
+    .elipse2 {
+      position: absolute;
+      width: 436px;
+      height: 436px;
+      left: 0px;
+      top: 397px;
+      background: rgba(28, 188, 97, 0.074);
+      filter: blur(190px);
+    }
+    .elispe3 {
+      position: absolute;
+      width: 436px;
+      height: 436px;
+      left: 900px;
+      top: 0px;
+      background: rgba(28, 188, 97, 0.074);
+      filter: blur(60px);
+    }
+  }
+}
+
+.secction-1{
+  .container{
+    margin-top: 150px;
+    h1{
+      font-size: 50px;
+    }
+    .simple-text{
+      margin-top: 30px;
+      text-align: center;
+      line-height: 35px;
+      font-size: 20px;
+      color: #8c8689;
+    }
+    .btn-class{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      padding-top: 10px;
+
+      .btn-cursos{
+        align-self: center;
+        padding: 25px 40px 25px 40px;
+        background-color: #1abf60;
+        border: none;
+        border-radius: 12px;
+      }
+    }
+    .online-class{
+      width: 100%;
+      min-width: 200px;
+      min-height: 100px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    .type-courses{
+      margin-bottom: 150px;
+      justify-content: center;
+      align-content: center;
+
+      .aulas-audio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        height: 100px;
+        div{
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          background-color: #fff;
+          border-radius: 10px;
+          height: 80px;
+          width: 60%;
+          padding-left: 10px;
+          
+          span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            margin: 0px;
+            width: 30%;
+            height: 80%;
+            font-size: 23px;
+            background-color: #96fdc15e;
+            border-radius: 10px;
+            color: #00c050;
+          }
+          p{
+            width: 70%;
+            margin: 0px;
+            font-weight: bold;
+            font-size: 18px;
+            padding-left: 20px;
+          }
+        }
+      }
+    }
+  }
+
+}
+.secction-2{
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  h1{
+      font-size: 50px;
+    }
+    .simple-text{
+      margin-top: 30px;
+      text-align: center;
+      line-height: 35px;
+      font-size: 20px;
+      color: #8c8689;
+    }
+
+  .levels-school{
+    margin-bottom: 100px;
+    justify-content: center;
+    align-content: center;
+
+    .btn-class{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      padding-top: 10px;
+
+      .btn-cursos{
+        align-self: center;
+        padding: 20px 30px 20px 30px;
+        background-color: transparent;
+        font-weight: 500;
+        color: #000;
+        border: none;
+        border-radius: 12px;
+      }
+    }
+    .btn-class .active{
+      color: #fff;
+        background-color: #1abf60;
+    }
+  }
+  .grades-row{
+    margin-bottom: 150px;
+    justify-content: center;
+    padding-left: 160px;
+    padding-right: 160px;
+
+    .card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      width:19rem;
+      margin: 10px;
+      padding-top: 30px;
+      border-radius: 20px;
+      border: none;
+
+      .classes-images{
+        width: 20%;
+        align-self: center;
+      }
+      h5{
+        text-align: center;
+        font-size: 30px;
+      }
+      h6{
+        text-align: center;
+      }
+      .card-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .card-subtitle{
+          line-height: 30px;
+          font-size: 20px;
+          font-weight: 400;
+          margin-top: 20px;
+        }
+        .btn-details{
+          margin-top: 20px;
+          margin-bottom: 20px;
+          width: 60%;
+          font-weight: 500;
+          color: #1abf60;
+          background-color: transparent;
+          border: 2px solid  #1abf60;
+        }
+        .active{
+          color: white;
+          background-color: #1abf60;
+          border: solid  #1abf60;
+        }
+      }
+    }
+  }
+
+}
+
+//Secction 3
+.secction-3{
+    .container{
+      padding-top: 80px;
+      padding-bottom: 0px;
+      padding-right: 0%;
+      padding-left: 60px;
+      margin-bottom: 100px;
+      border-radius: 20px;
+      background-color: rgb(233, 233, 233);
+
+
+      .writter-row{
+        .n-alert {
+            text-align: center;
+            background-color: rgb(224, 224, 224);
+            color: #14c55e;
+            align-self: flex-start;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            width: 50%;
+            font-size: 20px;
+            font-weight: 600;
+          }
+        h1{
+            font-size: 48px;
+        }
+        p{
+
+        }
+        .btn-registe{
+            align-self: center;
+            padding: 15px 30px 15px 30px;
+            background-color: #14c55e;
+            font-weight: 500;
+            color: #fff;
+            border: none;
+            border-radius: 12px;
+        }
+        .writter-image{
+            display: flex;
+            justify-content: end;
+        }
+        img{
+            width: 80%;
+        }
+      }
+    }
+}
+
+.secction-4{
+    .container{
+        margin-bottom: 100px;
+        .info-row{
+            
+            img{
+                width: 90%;
+            }
+            .info-text{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-content: center;
+
+                h1{
+                    font-size: 45px;
+                    margin-bottom: 50px;
+                }
+                p{
+                    margin-bottom: 40px;
+                }
+            }
+            .btn-info{
+                align-self: flex-start;
+                padding: 15px 30px 15px 30px;
+                background-color: #4dce83;
+                font-weight: 500;
+                color: #fff;
+                border: none;
+                border-radius: 12px;
+            }
+        }
+    }
+}

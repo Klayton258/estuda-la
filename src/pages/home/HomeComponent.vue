@@ -86,13 +86,13 @@
       <div class="col-6">
         <div class="row levels-school">
           <div class="col-4 btn-class">
-            <div class="btn btn-primary btn-cursos">Ver Cursos</div>
+            <div class="btn btn-primary btn-cursos">Creache</div>
           </div>
           <div class="col-4 btn-class">
-            <div class="btn btn-primary btn-cursos active">Ver Cursos</div>
+            <div class="btn btn-primary btn-cursos active">Secundaria</div>
           </div>
           <div class="col-4 btn-class">
-            <div class="btn btn-primary btn-cursos">Ver Cursos</div>
+            <div class="btn btn-primary btn-cursos">Universidade</div>
           </div>
         </div>
       </div>
@@ -102,357 +102,114 @@
           <img src="images/1.png" class="card-img-top classes-images">
           <div class="card-body">
             <h5 class="card-title">Primeira classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todods alunos </h6>
+            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos </h6>
             <div class="btn btn-primary btn-details">Detalhes</div>
           </div>
         </div>
         <div class="card">
           <img src="images/2.png" class="card-img-top classes-images">
           <div class="card-body">
-            <h5 class="card-title">Primeira classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Segunda classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos</h6>
+            <div class="btn btn-primary btn-details">Detalhes</div>
           </div>
         </div>
         <div class="card">
           <img src="images/3.png" class="card-img-top classes-images">
           <div class="card-body">
-            <h5 class="card-title">Primeira classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Terceira classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos</h6>
+            <div class="btn btn-primary btn-details active">Detalhes</div>
           </div>
         </div>
         <div class="card">
           <img src="images/4.png" class="card-img-top classes-images">
           <div class="card-body">
-            <h5 class="card-title">Primeira classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Quarta classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos</h6>
+            <div class="btn btn-primary btn-details">Detalhes</div>
           </div>
         </div>
         <div class="card">
           <img src="images/5.png" class="card-img-top classes-images">
           <div class="card-body">
-            <h5 class="card-title">Primeira classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Quinta classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos</h6>
+            <div class="btn btn-primary btn-details">Detalhes</div>
           </div>
         </div>
         <div class="card">
           <img src="images/6.png" class="card-img-top classes-images">
           <div class="card-body">
-            <h5 class="card-title">Primeira classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Sexta classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos</h6>
+            <div class="btn btn-primary btn-details">Detalhes</div>
           </div>
         </div>
         <div class="card">
           <img src="images/7.png" class="card-img-top classes-images">
           <div class="card-body">
-            <h5 class="card-title">Primeira classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Setima classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos</h6>
+            <div class="btn btn-primary btn-details">Detalhes</div>
           </div>
         </div>
         <div class="card">
           <img src="images/8.png" class="card-img-top classes-images">
           <div class="card-body">
-            <h5 class="card-title">Primeira classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Oitava classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos</h6>
+            <div class="btn btn-primary btn-details">Detalhes</div>
           </div>
         </div>
       </div>
   </section>
-
+  <section class="secction-3">
+    <div class="container">
+      <div class="row writter-row">
+        <div class="col-4">
+          <div class="n-alert">Nivel Universitario</div>
+          <h1>Melhore as suas habilidades com cursos praticos.</h1>
+          <p>Video de alta definicao e um video de maior resolucao e qualidade do que a definicao padrao. Embora nao haja um significado padronizado para alta definicao, geralmente  qualquer video.</p>
+          <div class="btn btn-primary btn-registe">Registe agora</div>
+        </div>
+        <div class="col-8 writter-image">
+          <img src="images/writter-desk.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="secction-4">
+    <div class="container">
+      <div class="row info-row">
+        <div class="col-6 info-image">
+          <img src="images/girl-green-back.png" alt="">
+        </div>
+        <div class="col-6 info-text">
+         <h1> Gostaria de fazer parte da equipe?Cadastre-se como professor</h1>
+         <p>Video de alta definicao e um video de maior resolucao e <br> qualidade do que a definicao padrao. Embora nao haja um <br> significado padronizado para alta definicao, geralmente  qualquer video.</p>
+         <div class="btn btn-primary btn-info">Informacao de carreira</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footercomponent />
 </template>
 
 
 <script>
 import navbar from "../../components/NavBarComponent.vue";
+import footercomponent from "../../components/FooterComponent.vue";
 
 export default {
   name: "HomeComponent",
   components: {
     navbar,
+    footercomponent
   },
 };
 </script>
 
-<style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Mandali&display=swap"); //font-family: 'Mandali', sans-serif;
+<style src="./styles.scss" lang="scss" scoped>
 
-.home-content {
-  .container {
-    padding-top: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: 100px;
-
-    height: 100vh;
-    .content-title {
-      top: -300px;
-    }
-    .content-img {
-      padding-top: 100px;
-    }
-    .row .content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-content: center;
-
-      .n-alert {
-        background-color: #ffffff;
-        color: #1abf60;
-        align-self: flex-start;
-        padding: 10px;
-        margin-bottom: 10px;
-        border-radius: 10px;
-        z-index: 1;
-      }
-
-      .title {
-        width: 100%;
-        // font-family: 'Mandali', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 85px;
-        line-height: 95px;
-        color: rgb(0, 28, 84);
-        z-index: 1;
-      }
-      .simple-text{
-        padding-top: 40px;
-        color: gray;
-        z-index: 1;
-      }
-      .input-bg{
-        margin-top: 30px;
-        background-color: #fff;
-        border-radius: 10px !important;
-      }
-      .form-control{
-        height: 60px;
-        border: none;
-      }
-      .btn-uny{
-        background-color: #fff;
-        border: none;
-        border-radius: 10px !important;
-        i{
-          color: #1abf60;
-        }
-      }
-      .btn-uny:hover{
-        color: #8c8689;
-      }
-      .search-btn{
-        background-color: #1abf60;
-        border: none;
-        border-radius: 10px !important;
-        color: #fff;
-        margin: 5px;
-        padding: 5px;
-      }
-      .search-btn:hover{
-        border: none;
-      }
-    }
-    .elipse {
-      position: absolute;
-      width: 436px;
-      height: 436px;
-      left: 231px;
-      top: 397px;
-      border-radius: 50%;
-      background: rgba(28, 188, 97, 0.074);
-      filter: blur(190px);
-    }
-    .elipse2 {
-      position: absolute;
-      width: 436px;
-      height: 436px;
-      left: 0px;
-      top: 397px;
-      background: rgba(28, 188, 97, 0.074);
-      filter: blur(190px);
-    }
-    .elispe3 {
-      position: absolute;
-      width: 436px;
-      height: 436px;
-      left: 900px;
-      top: 0px;
-      background: rgba(28, 188, 97, 0.074);
-      filter: blur(60px);
-    }
-  }
-}
-
-.secction-1{
-  .container{
-    margin-top: 150px;
-    h1{
-      font-size: 50px;
-    }
-    .simple-text{
-      margin-top: 30px;
-      text-align: center;
-      line-height: 35px;
-      font-size: 20px;
-      color: #8c8689;
-    }
-    .btn-class{
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      padding-top: 10px;
-
-      .btn-cursos{
-        align-self: center;
-        padding: 25px 40px 25px 40px;
-        background-color: #1abf60;
-        border: none;
-        border-radius: 12px;
-      }
-    }
-    .online-class{
-      width: 100%;
-      min-width: 200px;
-      min-height: 100px;
-      margin-top: 50px;
-      margin-bottom: 20px;
-    }
-    .type-courses{
-      margin-bottom: 150px;
-      justify-content: center;
-      align-content: center;
-
-      .aulas-audio{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10px;
-        height: 100px;
-        div{
-          display: flex;
-          justify-content: start;
-          align-items: center;
-          background-color: #fff;
-          border-radius: 10px;
-          height: 80px;
-          width: 60%;
-          padding-left: 10px;
-
-          span{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 0px;
-            margin: 0px;
-            width: 30%;
-            height: 80%;
-            background-color: #1abf5f92;
-            border-radius: 10px;
-          }
-          p{
-            width: 70%;
-            margin: 0px;
-            font-weight: bold;
-            font-size: 18px;
-            padding-left: 20px;
-          }
-        }
-      }
-    }
-  }
-
-}
-.secction-2{
-  .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  h1{
-      font-size: 50px;
-    }
-    .simple-text{
-      margin-top: 30px;
-      text-align: center;
-      line-height: 35px;
-      font-size: 20px;
-      color: #8c8689;
-    }
-
-  .levels-school{
-    margin-bottom: 150px;
-    justify-content: center;
-    align-content: center;
-
-    .btn-class{
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      padding-top: 10px;
-
-      .btn-cursos{
-        align-self: center;
-        padding: 25px 40px 25px 40px;
-        background-color: transparent;
-        font-weight: 500;
-        color: #000;
-        border: none;
-        border-radius: 12px;
-      }
-    }
-    .btn-class .active{
-      color: #fff;
-        background-color: #1abf60;
-    }
-  }
-  .grades-row{
-    margin-bottom: 150px;
-    justify-content: center;
-    padding-left: 160px;
-    padding-right: 160px;
-
-    .card{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-content: center;
-      width:19rem;
-      margin: 10px;
-      padding-top: 30px;
-      border-radius: 20px;
-      border: none;
-
-      .classes-images{
-        width: 30%;
-        align-self: center;
-      }
-      h5{
-        text-align: center;
-      }
-      h6{
-        text-align: center;
-      }
-      .card-body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-        .btn-details{
-          background-color: #1abf60;
-          border: solid  #1abf60;
-        }
-      }
-    }
-  }
-
-}
 </style>
