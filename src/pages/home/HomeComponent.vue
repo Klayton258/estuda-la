@@ -51,29 +51,120 @@
       <div class="btn-class">
         <div class="btn btn-primary btn-cursos">Ver Cursos</div>
       </div>
-      <img src="images/teacher.png" class="online-class" alt="">
+      <img src="images/video-banner.png" class="online-class" alt="">
       <div class="row type-courses">
         <div class="col-4 aulas-audio">
           <div class="col-6 ">
-            <span><i class="fa fa-video-camera" aria-hidden="true"></i></span> 
+            <span><i class="fa-solid fa-volume-high"></i></span> 
             <p> Aulas Audio</p>
           </div>
         </div>
         <div class="col-4 aulas-audio">
           <div class="col-6 ">
-            <span><i class="fa fa-video-camera" aria-hidden="true"></i></span> 
+            <span><i class="fa-solid fa-tv"></i></span> 
             <p> Aulas Live</p>
           </div>
         </div>
         <div class="col-4 aulas-audio">
           <div class="col-6 ">
-            <span><i class="fa fa-video-camera" aria-hidden="true"></i></span> 
+            <span><i class="fa-solid fa-circle-play"></i></span> 
             <p> Aulas gravadas</p>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <section class="secction-2">
+    <div class="container">
+        <h1 class="text-center">Aulas qualificadas para estudantes</h1>
+        <p class="simple-text">
+          Uma licao ou aula e um periodo estruturado de tempo em se pretende que a
+          apredizagem ocorra. Envolve um ou mais alunos professor ou instrutor.  
+        </p>
+
+      <div class="col-6">
+        <div class="row levels-school">
+          <div class="col-4 btn-class">
+            <div class="btn btn-primary btn-cursos">Ver Cursos</div>
+          </div>
+          <div class="col-4 btn-class">
+            <div class="btn btn-primary btn-cursos active">Ver Cursos</div>
+          </div>
+          <div class="col-4 btn-class">
+            <div class="btn btn-primary btn-cursos">Ver Cursos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="row g-4  grades-row">
+        <div class="card">
+          <img src="images/1.png" class="card-img-top classes-images">
+          <div class="card-body">
+            <h5 class="card-title">Primeira classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todods alunos </h6>
+            <div class="btn btn-primary btn-details">Detalhes</div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/2.png" class="card-img-top classes-images">
+          <div class="card-body">
+            <h5 class="card-title">Primeira classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/3.png" class="card-img-top classes-images">
+          <div class="card-body">
+            <h5 class="card-title">Primeira classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/4.png" class="card-img-top classes-images">
+          <div class="card-body">
+            <h5 class="card-title">Primeira classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/5.png" class="card-img-top classes-images">
+          <div class="card-body">
+            <h5 class="card-title">Primeira classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/6.png" class="card-img-top classes-images">
+          <div class="card-body">
+            <h5 class="card-title">Primeira classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/7.png" class="card-img-top classes-images">
+          <div class="card-body">
+            <h5 class="card-title">Primeira classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/8.png" class="card-img-top classes-images">
+          <div class="card-body">
+            <h5 class="card-title">Primeira classe</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
 </template>
 
 
@@ -97,7 +188,7 @@ export default {
     padding-left: 50px;
     padding-right: 50px;
     margin-left: 100px;
-    // margin-right: 50px;
+
     height: 100vh;
     .content-title {
       top: -300px;
@@ -228,6 +319,10 @@ export default {
     }
     .online-class{
       width: 100%;
+      min-width: 200px;
+      min-height: 100px;
+      margin-top: 50px;
+      margin-bottom: 20px;
     }
     .type-courses{
       margin-bottom: 150px;
@@ -268,6 +363,92 @@ export default {
             font-size: 18px;
             padding-left: 20px;
           }
+        }
+      }
+    }
+  }
+
+}
+.secction-2{
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  h1{
+      font-size: 50px;
+    }
+    .simple-text{
+      margin-top: 30px;
+      text-align: center;
+      line-height: 35px;
+      font-size: 20px;
+      color: #8c8689;
+    }
+
+  .levels-school{
+    margin-bottom: 150px;
+    justify-content: center;
+    align-content: center;
+
+    .btn-class{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      padding-top: 10px;
+
+      .btn-cursos{
+        align-self: center;
+        padding: 25px 40px 25px 40px;
+        background-color: transparent;
+        font-weight: 500;
+        color: #000;
+        border: none;
+        border-radius: 12px;
+      }
+    }
+    .btn-class .active{
+      color: #fff;
+        background-color: #1abf60;
+    }
+  }
+  .grades-row{
+    margin-bottom: 150px;
+    justify-content: center;
+    padding-left: 160px;
+    padding-right: 160px;
+
+    .card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      width:19rem;
+      margin: 10px;
+      padding-top: 30px;
+      border-radius: 20px;
+      border: none;
+
+      .classes-images{
+        width: 30%;
+        align-self: center;
+      }
+      h5{
+        text-align: center;
+      }
+      h6{
+        text-align: center;
+      }
+      .card-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .btn-details{
+          background-color: #1abf60;
+          border: solid  #1abf60;
         }
       }
     }

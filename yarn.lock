@@ -412,6 +412,11 @@
   "resolved" "https://registry.npmjs.org/esbuild-linux-64/-/esbuild-linux-64-0.14.36.tgz"
   "version" "0.14.36"
 
+"esbuild-windows-64@0.14.36":
+  "integrity" "sha512-+p4MuRZekVChAeueT1Y9LGkxrT5x7YYJxYE8ZOTcEfeUUN43vktSn6hUNsvxzzATrSgq5QqRdllkVBxWZg7KqQ=="
+  "resolved" "https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.14.36.tgz"
+  "version" "0.14.36"
+
 "esbuild@^0.14.27":
   "integrity" "sha512-HhFHPiRXGYOCRlrhpiVDYKcFJRdO0sBElZ668M4lh2ER0YgnkLxECuFe7uWCf23FrcLc59Pqr7dHkTqmRPDHmw=="
   "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.14.36.tgz"
