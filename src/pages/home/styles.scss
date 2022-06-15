@@ -1,3 +1,4 @@
+@import '@/assets/scss/_colors.scss'; 
 @import url("https://fonts.googleapis.com/css2?family=Mandali&display=swap"); //font-family: 'Mandali', sans-serif;
 
 .home-content {
@@ -21,8 +22,8 @@
       align-content: center;
 
       .n-alert {
-        background-color: #ffffff;
-        color: #1abf60;
+        background-color: $white;
+        color: $green;
         align-self: flex-start;
         padding: 10px;
         margin-bottom: 10px;
@@ -37,12 +38,12 @@
         font-weight: 700;
         font-size: 85px;
         line-height: 95px;
-        color: rgb(0, 28, 84);
+        color: $darkblue;
         z-index: 1;
       }
       .simple-text{
         padding-top: 40px;
-        color: gray;
+        color: $gray;
         z-index: 1;
       }
       .input-bg{

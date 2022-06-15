@@ -5,8 +5,8 @@
        </div>
      <div class="menu">
        <ul>
-           <a href="#"><li class="active">inicio</li></a>
-           <a href="#"><li>Loja <i class="fa-solid fa-chevron-down"></i></li></a>
+           <a href="#" @click.prevent="inicio"><li class="active">inicio</li></a>
+           <a href="#" @click.prevent="loja"><li>Loja <i class="fa-solid fa-chevron-down"></i></li></a>
            <a href="#"><li>Cursos <i class="fa-solid fa-chevron-down"></i></li></a>
            <a href="#"><li>Precos <i class="fa-solid fa-chevron-down"></i></li></a>
            <a href="#"><li>Explicador <i class="fa-solid fa-chevron-down"></i></li></a>
@@ -24,9 +24,14 @@ export default {
 name: 'NavBarComponent',
 
 methods:{
-logout(){
-  this.$router.push({name:'login'})
-}
+  loja(){
+    this.$router.push({name:'loja'})
+  },
+  inicio(){
+    this.$router.push({name:'home'})
+  }
+
+
 }
 
 }
