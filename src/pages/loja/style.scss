@@ -1,17 +1,66 @@
 @import "@/assets/scss/_main";
+@import '@/assets/scss/_colors.scss';
 
 
 .header{
     width: 100%;
-    .container{
-        padding-left: 0px;
-        padding-left: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
+    margin-top: 0px;
+    .contain{
+        padding-left: 40px !important;
+        padding-left: 40px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
     }
+}
+
+aside{
+    padding: 40px;
+    .popular-row{
+
+    }
+
+    img{
+        margin-top: 12px;
+        width: 100%;
+        height: 10%;
+    }
+}
+
+article{
+    padding-top: 40px;
+
+    .levels-school{
+        margin-bottom: 100px;
+        justify-content: start;
+        align-content: center;
+    
+        .btn-class{
+          display: flex;
+          justify-content: center;
+          align-content: center;
+          padding-top: 10px;
+    
+          .btn-cursos{
+            align-self: center;
+            width: 100%;
+            padding: 15px 5px 15px 5px;
+            background-color: $white;
+            font-weight: 400;
+            font-size: 13px;
+            color: #000;
+            border: none;
+            border-radius: 10px;
+          }
+        }
+        .btn-class .active{
+          color: #fff;
+            background-color: #1abf60;
+        }
+      }
+
 }
