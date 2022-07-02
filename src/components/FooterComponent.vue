@@ -14,7 +14,20 @@
     <div class="row footer-row p-2">
       <div class="col-3 footer-icons">
          <img src="images/logo.png" width="100px" height="100px" alt="logo"> <br>
-         <img src="images/social.png" width="100px" height="30px" alt="logo">
+         <div class="row social-media">
+          <div class="col-3">
+            <a href="#"><img src="images/face.png" width="100%" height="100%" alt="logo"></a>
+          </div>
+          <div class="col-3">
+            <a href="#"><img src="images/insta.png" width="100%" height="100%" alt="logo"></a>
+          </div>
+          <div class="col-3">
+            <a href="#"><img src="images/twitter.png" width="100%" height="100%" alt="logo"></a>
+          </div>
+          <div class="col-3">
+            <a href="#"><img src="images/linkedin.png" width="100%" height="100%" alt="logo"></a>
+          </div>
+         </div>
          <p>&copy; 2022 estuda la</p>
       </div>
       <div class="col-3 footer-courses">
@@ -74,7 +87,7 @@ export default {
   border-radius: 20px;
   width: 100%;
   padding: 50px;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 100px;
 
   h1{
@@ -126,6 +139,15 @@ export default {
     flex-direction: column;
     justify-content: baseline;
     align-items: center;
+  }
+  .social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+    .col-3{
+      height: 30%;
+    }
   }
 }
 </style>

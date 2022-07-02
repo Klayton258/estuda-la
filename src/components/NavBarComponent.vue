@@ -1,7 +1,7 @@
 <template>
   <div class="nav-content">
      <div class="title">
-       <img src="images/logo.png" width="100px" height="100px" alt="logo">
+       <img src="images/logo.png" alt="logo">
        </div>
      <div class="menu">
        <ul>
@@ -53,6 +53,11 @@ methods:{
     color: white;
     font-size: 24px;
       padding-left: 90px;
+
+    img{
+      width: 100px;
+      height: 100px;
+    }
     
   }
   .logout{
