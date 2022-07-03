@@ -1,0 +1,114 @@
+@import "@/assets/scss/_main";
+@import '@/assets/scss/_colors.scss';
+
+
+.header{
+    width: 100%;
+    margin-top: 0px;
+    .contain{
+        padding-left: 40px !important;
+        padding-left: 40px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%;
+        }
+    }   
+}
+
+.section-btns{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-top: 50px;
+}
+.levels-school{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    gap: 20px;
+    align-content: center;
+
+    .btn-class{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      padding-top: 10px;
+
+      .btn-cursos{
+        align-self: center;
+        width: 100%;
+        padding: 18px 2px 18px 2px;
+        background-color: $white;
+        font-weight: 500;
+        font-size: 18px;
+        color: #000;
+        border: none;
+        border-radius: 10px;
+      }
+    }
+    .btn-class .active{
+      color: #fff;
+        background-color: #1abf60;
+    }
+}
+
+.input-bg{
+   margin-top: 30px;
+   background-color: #fff;
+   border-radius: 10px !important;
+   
+   .form-control{
+    height: 60px;
+    border: none;
+  }
+   .search-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1abf60;
+    border: none;
+    border-radius: 10px !important;
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+    padding-right: 10px;
+  }
+  .search-btn:hover{
+    border: none;
+  }
+
+}
+
+
+.card-aside{
+    margin-top: 12px;
+    background-color: $white;
+    border-radius: 10px;
+    color: #000;
+    img{
+      width: 30%;
+    }
+    .card-context{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 70%;
+      .title{
+        margin-top: 8px;
+        font-size: 24px;  
+        line-height: 28px;
+        font-weight: bold;
+        color: $darkblue;
+      }
+      .price{
+        margin-top: 5px;
+        font-weight: bold;
+        color: #FF5654;
+      }
+    }
+}

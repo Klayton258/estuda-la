@@ -75,95 +75,8 @@
     </div>
   </section>
 
-  <section class="secction-2">
-    <div class="container">
-        <h1 class="text-center">Aulas qualificadas para estudantes</h1>
-        <p class="simple-text">
-          Uma licao ou aula e um periodo estruturado de tempo em se pretende que a
-          apredizagem ocorra. Envolve um ou mais alunos professor ou instrutor.  
-        </p>
+  <classes :title="'true'"/>
 
-      <div class="col-6">
-        <div class="row levels-school">
-          <div class="col-4 btn-class">
-            <div class="btn btn-primary btn-cursos">Creache</div>
-          </div>
-          <div class="col-4 btn-class">
-            <div class="btn btn-primary btn-cursos active">Secundaria</div>
-          </div>
-          <div class="col-4 btn-class">
-            <div class="btn btn-primary btn-cursos">Universidade</div>
-          </div>
-        </div>
-      </div>
-    </div>
-      <div class="row g-4  grades-row">
-        <div class="card">
-          <img src="images/1.png" class="card-img-top classes-images">
-          <div class="card-body">
-            <h5 class="card-title">Primeira classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos </h6>
-            <div class="btn btn-primary btn-details">Detalhes</div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/2.png" class="card-img-top classes-images">
-          <div class="card-body">
-            <h5 class="card-title">Segunda classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos</h6>
-            <div class="btn btn-primary btn-details">Detalhes</div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/3.png" class="card-img-top classes-images">
-          <div class="card-body">
-            <h5 class="card-title">Terceira classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos</h6>
-            <div class="btn btn-primary btn-details active">Detalhes</div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/4.png" class="card-img-top classes-images">
-          <div class="card-body">
-            <h5 class="card-title">Quarta classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos</h6>
-            <div class="btn btn-primary btn-details">Detalhes</div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/5.png" class="card-img-top classes-images">
-          <div class="card-body">
-            <h5 class="card-title">Quinta classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos</h6>
-            <div class="btn btn-primary btn-details">Detalhes</div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/6.png" class="card-img-top classes-images">
-          <div class="card-body">
-            <h5 class="card-title">Sexta classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos</h6>
-            <div class="btn btn-primary btn-details">Detalhes</div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/7.png" class="card-img-top classes-images">
-          <div class="card-body">
-            <h5 class="card-title">Setima classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos</h6>
-            <div class="btn btn-primary btn-details">Detalhes</div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/8.png" class="card-img-top classes-images">
-          <div class="card-body">
-            <h5 class="card-title">Oitava classe</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Fundacoes de bases para todos alunos</h6>
-            <div class="btn btn-primary btn-details">Detalhes</div>
-          </div>
-        </div>
-      </div>
-  </section>
   <section class="secction-3">
     <div class="container">
       <div class="row writter-row">
@@ -200,12 +113,14 @@
 <script>
 import navbar from "../../components/NavBarComponent.vue";
 import footercomponent from "../../components/FooterComponent.vue";
+import classes from "../../components/ClassesCompoenent.vue";
 
 export default {
   name: "HomeComponent",
   components: {
     navbar,
-    footercomponent
+    classes,
+    footercomponent,
   },
 };
 </script>

@@ -7,8 +7,8 @@
        <ul>
            <a href="#" @click.prevent="inicio"><li class="active">inicio</li></a>
            <a href="#" @click.prevent="loja"><li>Loja <i class="fa-solid fa-chevron-down"></i></li></a>
-           <a href="#"><li>Cursos <i class="fa-solid fa-chevron-down"></i></li></a>
-           <a href="#"><li>Precos <i class="fa-solid fa-chevron-down"></i></li></a>
+           <a href="#" @click.prevent="cursos"><li>Cursos <i class="fa-solid fa-chevron-down"></i></li></a>
+           <a href="#" @click.prevent="precos"><li>Precos <i class="fa-solid fa-chevron-down"></i></li></a>
            <a href="#"><li>Explicador <i class="fa-solid fa-chevron-down"></i></li></a>
            <a href="#"><li>Avaliacoes do Explicador <i class="fa-solid fa-chevron-down"></i></li></a>
            <a href="#"><li>Compras(0) <i class="fa-solid fa-bag-shopping" style="color: #38A868;"></i></li></a>
@@ -24,12 +24,18 @@ export default {
 name: 'NavBarComponent',
 
 methods:{
+  inicio(){
+    this.$router.push({name:'home'})
+  },
   loja(){
     this.$router.push({name:'loja'})
   },
-  inicio(){
-    this.$router.push({name:'home'})
-  }
+  cursos(){
+    this.$router.push({name:'cursos'})
+  },
+  precos(){
+    this.$router.push({name:'precos'})
+  },
 
 
 }

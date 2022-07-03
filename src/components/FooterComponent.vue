@@ -124,6 +124,8 @@ export default {
 }
 
 .footer-row{
+  margin: 0%;
+  padding: 0%;
     margin-bottom: 100px;
     h4{
       color: $darkblue;
