@@ -9,10 +9,10 @@
            <a href="#" @click.prevent="loja"><li>Loja <i class="fa-solid fa-chevron-down"></i></li></a>
            <a href="#" @click.prevent="cursos"><li>Cursos <i class="fa-solid fa-chevron-down"></i></li></a>
            <a href="#" @click.prevent="precos"><li>Precos <i class="fa-solid fa-chevron-down"></i></li></a>
-           <a href="#"><li>Explicador <i class="fa-solid fa-chevron-down"></i></li></a>
-           <a href="#"><li>Avaliacoes do Explicador <i class="fa-solid fa-chevron-down"></i></li></a>
-           <a href="#"><li>Compras(0) <i class="fa-solid fa-bag-shopping" style="color: #38A868;"></i></li></a>
-           <a href="#"><li>Cadastrar-se <i class="fa-solid fa-circle-user" style="color: #38A868;"></i></li></a>
+           <a href="#" @click.prevent="explicador"><li>Explicador <i class="fa-solid fa-chevron-down"></i></li></a>
+           <a href="#" @click.prevent="avaliacao"><li>Avaliacoes do Explicador <i class="fa-solid fa-chevron-down"></i></li></a>
+           <a href="#" @click.prevent="compras"><li>Compras(0) <i class="fa-solid fa-bag-shopping" style="color: #38A868;"></i></li></a>
+           <a href="#" @click.prevent="cadastrar"><li>Cadastrar-se <i class="fa-solid fa-circle-user" style="color: #38A868;"></i></li></a>
        </ul>
       </div>
   </div>
@@ -35,6 +35,18 @@ methods:{
   },
   precos(){
     this.$router.push({name:'precos'})
+  },
+  explicador(){
+    this.$router.push({name:'explicador'})
+  },
+  avaliacao(){
+    this.$router.push({name:'avaliacao'})
+  },
+  compras(){
+    this.$router.push({name:'avaliacao'})
+  },
+  cadastrar(){
+    this.$router.push({name:'cadastrar'})
   },
 
 

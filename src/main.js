@@ -8,6 +8,9 @@ import homePage from './pages/home/HomePage.vue';
 import storePage from './pages/store/StorePage.vue';
 import cursesPage from './pages/curses/cursesPage.vue';
 import pricePage from './pages/prices/pricePage.vue';
+import teacherPage from './pages/teacher/teacherPage.vue';
+import teacherRatePage from './pages/teacherRate/teacherRate.vue';
+import subscribePage from './pages/subscribe/subscribePage.vue';
 
 import axios from 'axios'
 
@@ -16,6 +19,9 @@ const routes = [
   { path: '/store', name: 'loja', component: storePage},
   { path: '/curses', name: 'cursos', component: cursesPage},
   { path: '/prices', name: 'precos', component: pricePage},
+  { path: '/teacher', name: 'explicador', component: teacherPage},
+  { path: '/rate', name: 'avaliacao', component: teacherRatePage},
+  { path: '/subscribe', name: 'cadastrar', component: subscribePage},
 ];
 
 const router = VueRouter.createRouter({

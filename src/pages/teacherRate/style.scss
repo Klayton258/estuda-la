@@ -1,0 +1,93 @@
+@import "@/assets/scss/_main";
+@import '@/assets/scss/_colors.scss';
+
+
+.header{
+    width: 100%;
+    margin-top: 0px;
+    .contain{
+        padding-left: 40px !important;
+        padding-left: 40px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%;
+        }
+    }   
+}
+
+.section-btns{
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  // margin-top: 50px;
+}
+.levels-school{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  gap: 20px;
+  align-content: center;
+
+  .btn-class{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10px;
+
+    .btn-cursos{
+      align-self: center;
+      width: 100%;
+      padding: 18px 2px 18px 2px;
+      background-color: $white;
+      font-weight: 500;
+      font-size: 18px;
+      color: #000;
+      border: none;
+      border-radius: 10px;
+    }
+  }
+  .btn-class .active{
+    color: #fff;
+      background-color: #1abf60;
+  }
+}
+
+.cont-grid {
+  margin-top: 140px;
+  margin-bottom: 140px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 20px;
+}
+
+.cont-grid .col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  img{
+    border-radius: 10px;
+  }
+  a{
+    text-decoration-line: none;
+    color: #000;
+  }
+  .card-body{
+    background-color: transparent;
+    text-align: start;
+    width: 100%;
+  }
+  .colapse{
+
+  }
+}

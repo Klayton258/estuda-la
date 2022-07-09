@@ -1,0 +1,155 @@
+@import "@/assets/scss/_main";
+@import '@/assets/scss/_colors.scss';
+
+
+.header{
+    width: 100%;
+    margin-top: 0px;
+    .contain{
+        padding-left: 40px !important;
+        padding-left: 40px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%;
+        }
+    }   
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    img{
+        width: 100%;
+    }
+    .image-bg{
+        height: 10%;
+        border-radius: 10px;
+        background-color: $green2;
+    }
+
+    .col-context{
+        padding-left: 50px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        h3{
+            width: 100%;
+            font-size: 42px;
+            color: $darkblue;
+        }
+        p{
+            line-height: 35px;
+            font-size: 20px;
+        }
+    }
+}
+
+.online-class{
+    width: 100%;
+    min-width: 200px;
+    min-height: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    max-width: 50rem;
+    width: 100%;
+    margin: 0 auto;
+
+  .tabs {
+    position: relative;
+    margin: 3rem 0;
+    background: transparent;
+    height: 14.75rem;
+  }
+  .tabs::before,
+  .tabs::after {
+    content: "";
+    display: table;
+  }
+  .tabs::after {
+    clear: both;
+  }
+  .tab {
+    float: left;
+  }
+  .tab-switch {
+    display: none;
+  }
+  .tab-label {
+    position: relative;
+    display: block;
+    line-height: 2.75em;
+    height: 3em;
+    padding: 0 1.618em;
+    background: transparent;
+    border-right: 0.125rem solid none;
+    border-bottom: 0.18rem solid gray;
+    color: $black;
+    cursor: pointer;
+    top: -0.0625rem;
+    transition: all 0.35s;
+  }
+  .tab-label:hover {
+    top: -0.0625rem;
+    transition: top 0.25s;
+  }
+  .tab-content {
+    height: 12rem;
+    position: absolute;
+    z-index: 1;
+    top: 2.75em;
+    left: 0;
+    padding: 1.618rem;
+    background: transparent;
+    color: #2c3e50;
+    border-bottom: 0.25rem solid none;
+    opacity: 0;
+    transition: all 0.35s;
+
+    ul{
+        color: $green2;
+        font-size: 25px;
+        line-height: 55px;
+        .text{
+            color: black;
+        }
+    }
+
+  }
+  .tab-switch:checked + .tab-label {
+    background: transparent;
+    color: #FF5654;
+    border-bottom: 0;
+    border-right: 0.125rem solid none;
+    border-bottom: 0.18rem solid #FF5654;
+    transition: all 0.35s;
+    z-index: 1;
+    top: -0.0625rem;
+  }
+  .tab-switch:checked + label + .tab-content {
+    z-index: 2;
+    opacity: 1;
+    transition: all 0.35s;
+  }
+}
+
+.secction-2{
+    margin-top: 50px;
+    text-align: center;
+    h1{
+        font-size: 45px;
+        font-weight: bold;
+        color: $darkblue;
+    }
+}

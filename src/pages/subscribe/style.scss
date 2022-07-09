@@ -1,0 +1,24 @@
+// @import "@/assets/scss/_main";
+@import '@/assets/scss/_colors.scss';
+
+.secction-1{
+
+
+.subscribe-cont{
+    background-color: gray;
+    border-radius: 20px;
+    padding: 80px;
+    height: 800px;
+}
+
+.divider{
+    height: 8px;
+    width: 100%;
+    -webkit-transform:rotate(90deg);
+    background-image: linear-gradient(90deg,$white,black,white);
+    
+    border: 0;
+    height: 2px;
+}
+
+}
