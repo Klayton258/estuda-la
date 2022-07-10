@@ -1,39 +1,175 @@
-@import '@/assets/scss/_main';
+@import "@/assets/scss/_main";
+@import '@/assets/scss/_colors.scss';
 
-.login{
+.secction-1{
+margin-top: 100px;
+
+.subscribe-cont{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 80px;
+}
+.col-presentation{
     display: flex;
-    width: 100%;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    h2{
+        color: $darkblue;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+    img{
+        width: 80%;
+        align-self: center;
+    }
+    
+}
+
+.col-inputs{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 
-    .login-page{
+    .btn-google:focus{
+        box-shadow: none;
+        border: 1px solid $darkblue;
+    }
+    .btn-google{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        align-self: center;
+        background-color: white;
+        color: rgb(75, 75, 75);
+        border: 1px solid rgb(89, 89, 89);
+        padding-left: 1%;
+
+        .icon{
+            background-color: $darkgreen;
+            padding: 5px 13px 5px 13px;
+            border-radius: 3px;
+        }
+        .text{
+            padding-left: 5px;
+        }
+    }
+    .or-sub{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: $teal;
-        width: 500px;
-        height: 450px;
-        border-radius: 10px;
-        padding: 0px;
-
-        form{
-            width: 400px;
-
-            h3{
-                font-size: 35px;
-                text-align: center;
-                font-family: 'Rajdhani', sans-serif;
-                margin-bottom: 40px;
-                color: $white;
-            }
-
-            button{
-                width: 100%;
-                color: $white;
-                background-color: $gray;
-                border-color: gray;
-                
-            }
+        margin-top: 30px;
+        hr{
+            margin: 0px;
+        }
+        .textt{
+            padding: 0%;
+            text-align: center;
         }
     }
+
+    input:focus{
+        box-shadow: none;
+    }
+
+    .form-check1 {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        // font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+    /* Hide the browser's default checkbox */
+.form-check1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+    /* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border: 2px solid green;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .form-check1:hover input ~ .checkmark {
+    background-color: $green3;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .form-check1 input:checked ~ .checkmark {
+    background-color: #fff;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .form-check1 input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .form-check1 .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid $darkgreen;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+
+    .btn-submit{
+        background-color: $darkgreen;
+        border: none;
+    }
+    .btn-submit:focus{
+        background-color: $darkgreen;
+        border: none;
+        box-shadow: none;
+    }
+}
+
+.divider{
+    height: 8px;
+    width: 100%;
+    -webkit-transform:rotate(90deg);
+    background-image: linear-gradient(90deg,$white,black,white);
+    
+    border: 0;
+    height: 2px;
+}
+
+.login{
+    text-align: center;
+
+    a{
+        text-decoration-line: none;
+        font-weight: bold;
+        color: $gray;
+    }
+}
+
 }

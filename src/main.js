@@ -11,6 +11,7 @@ import pricePage from './pages/prices/pricePage.vue';
 import teacherPage from './pages/teacher/teacherPage.vue';
 import teacherRatePage from './pages/teacherRate/teacherRate.vue';
 import subscribePage from './pages/subscribe/subscribePage.vue';
+import loginPage from './pages/login/loginPage.vue';
 
 import axios from 'axios'
 
@@ -22,6 +23,7 @@ const routes = [
   { path: '/teacher', name: 'explicador', component: teacherPage},
   { path: '/rate', name: 'avaliacao', component: teacherRatePage},
   { path: '/subscribe', name: 'cadastrar', component: subscribePage},
+  { path: '/login', name: 'entrar', component: loginPage},
 ];
 
 const router = VueRouter.createRouter({
